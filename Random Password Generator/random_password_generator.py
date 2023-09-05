@@ -3,7 +3,7 @@ import dbm
 import os
 import tkinter
 
-os.chdir(r"C:\Users\saive\OneDrive\Desktop\CODING WORK\Python programs\Random Password Generator")
+os.chdir("Random Password Generator")
 
 accountsDB = dbm.open("accountsDB", 'c')
 access_to_save = False
